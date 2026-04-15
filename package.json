@@ -16,6 +16,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "overrides": {
+    "@babel/traverse": "7.23.2"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
